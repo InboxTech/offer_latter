@@ -8,90 +8,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-    <style>
-        /* General Styles */
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.3;
-            background-color: #fff;
-        }
-        .container {
-            width: 100%;
-            height: 100%;
-            margin: 0 auto;
-            /* padding: 13px; */
-            background-color: #fff;
-            page-break-before: always;
-        }
-        /* .header {
-            padding-bottom: 8px;
-            margin-bottom: 16px;
-        }
-        .header .row>div {
-            display: flex;
-            align-items: center;
-        }
-        .logo img {
-            width: 100px;
-        }
-        .header-text p {
-            margin: 0;
-            font-size: 14px;
-        } */
-        .content h2 {
-            font-size: 18px;
-            margin-bottom: 8px;
-        }
-        .content p {
-            margin-bottom: 8px;
-            font-size: 14px;
-        }
-        .sign {
-            width: 100px;
-        }
-        .signature-section {
-            margin-top: 15px;
-            margin-bottom: 15px;
-        }
-        .signature{
-            display: flex;
-            justify-content: space-between;
-        }
-        .signature p {
-            margin: 5px 0;
-        }
-        /* .footer {
-            text-align: center;
-            font-size: 14px;
-            padding-top: 8px;
-            margin-top: 16px;
-        } */
-        /* Print Styles */
-        @media print {
-            @page {
-                size: A4;
-                margin: 9mm !important;
-                
-                /* Set margins for A4 */
-            }
-            .container {
-                width: 100%;
-                height: 100%;
-                margin: 0;
-                padding: 0;
-            }
-            body {
-                margin: 0;
-            }
-            /* .footer {
-                page-break-after: always;
-            } */
-            .signature-section {
-                page-break-before: avoid;
-                page-break-after: avoid;
-            }
-        }
-    </style>
+    <link href="public/css/style.css" rel="stylesheet" >
 </head>
 
 <body>
@@ -142,7 +59,7 @@
                 relationship with you.</p>
 
             <p><strong>Yours Truly,<br>Ms. Payal Patel</strong></p>
-            <img src="sign.png" alt="" class="sign">
+            <img src="public/images/sign.png" alt="" class="sign">
             <p class="mb-1">MD & Chairman</p>
         </div>
 
@@ -164,9 +81,9 @@
     <div class="container">
         <table>
             <thead>
-                <th class="w-75">Salary Structure</th>
-                <th class="w-25">Yearly</th>
-                <th class="w-25">Monthly</th>
+                <th>Salary Structure</th>
+                <th>Yearly</th>
+                <th>Monthly</th>
             </thead>
             <tr>
                 <td><strong>Gross Salary</strong></td>
@@ -174,27 +91,27 @@
                 <td>27,000</td>
             </tr>
             <tr>
-                <td><strong>Basic</strong></td>
+                <td>Basic</td>
                 <td>1,29,600</td>
                 <td>10,800</td>
             </tr>
             <tr>
-                <td><strong>HRA</strong></td>
+                <td>HRA</td>
                 <td>51,840</td>
                 <td>4,320</td>
             </tr>
             <tr>
-                <td><strong>Medical</strong></td>
+                <td>Medical</td>
                 <td>15,000</td>
                 <td>1,250</td>
             </tr>
             <tr>
-                <td><strong>Education</strong></td>
+                <td>Education</td>
                 <td>12,000</td>
                 <td>1,000</td>
             </tr>
             <tr>
-                <td><strong>Conveyance</strong></td>
+                <td>Conveyance</td>
                 <td>19,200</td>
                 <td>1,600</td>
             </tr>
@@ -204,10 +121,31 @@
                 <td>27,000.00</td>
             </tr>
             <tr>
-                <td><strong>Gross Salary</strong></td>
+                <td><strong>Less: Deduction</strong></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Less: Deduction</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Gross Salary</td>
                 <td>3,24,000</td>
                 <td>27,000</td>
             </tr>
+            <tr>
+                <td>Less: Deduction</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Less: Deduction</td>
+                <td></td>
+                <td></td>
+            </tr>
+
         </table>
     </div>
 
