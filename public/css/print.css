@@ -6,12 +6,16 @@
     }
     body {
         margin: 0;
+        width: 100%;
     }
     .container-fluid {
         width: 90%;
         margin: 0mm 12mm !important;
+        /* page-break-after:always !important; */
+
     }
     .footer{
+        display: block;
         bottom: 0px;
     }
     .signature-section {
