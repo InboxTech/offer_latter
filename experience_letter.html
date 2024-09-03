@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offer Letter</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0mm 0mm !important;
+            width: 210mm;
+            height: 297mm;
+        }
+
+        #confirmation-letter {
+            width: 210mm;
+            height: 297mm;
+            position: relative;
+        }
+
+        .header img{
+            display: block;
+            width: 210mm;
+            height: auto;
+        }
+
+        .footer img {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 210mm;
+            height: auto;
+        }
+
+        .container-fluid {
+            margin-left: 10mm;
+            margin-right: 10mm;
+        }
+
+        .title {
+            text-align: center;
+            font-weight: bold;
+            text-decoration: underline;
+            margin: 30px 0;
+        }
+
+        .date {
+            text-align: right;
+            margin-bottom: 30px;
+        }
+
+        .salutation {
+            text-align: center;
+            font-weight: bold;
+            text-decoration: underline;
+            margin-bottom: 30px;
+        }
+
+        p {
+            font-size: 15px;
+            line-height: 1.5;
+            text-align: justify;
+        }
+
+        .sign {
+            width: 6rem;
+        }
+
+        .signature-section {
+            font-size: 11px;
+        }
+
+        .signature {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        /* Print Styles */
+        @page {
+            size: pdf;
+            margin: 0mm 0mm !important;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<nav>
+</nav>
+
+<body>
+    <section id="confirmation-letter">
+        <div class="header">
+            <img src="public/images/logo-img-header.png" alt="">
+        </div>
+        <div class="container-fluid">
+            <div class="title">
+                Experience Certificate and Relieving Letter
+            </div>
+
+            <div class="date">
+                Date: 02<sup>nd</sup> May 2024
+            </div>
+
+            <div class="salutation">
+                TO WHOMSOEVER IT MAY CONCERN
+            </div>
+
+            <p>
+                This is to certify that <strong>Mrs. Riti Shah</strong>, was an employee of Inbox Infotech, Vadodara and
+                she had been working with us from 16th November 2023 to 24<sup>th</sup> April 2024 as a <strong>“Project
+                    Manager”</strong>.
+            </p>
+            <p>
+                During her service period we found her sincere and hardworking in her job. We relieve her from the
+                current responsibilities and we wish her all success in her future career.
+            </p>
+
+            <div class="signature-section">
+                <p><strong>Yours Truly,<br>Ms. Payal Patel</strong></p>
+                <img src="public/images/sign.png" alt="" class="sign">
+                <p>MD & Chairman</p>
+                <p><strong>Acceptance of employee:</strong> I have read the contents of the above letter & accept the
+                    offer:
+                </p>
+                <div class="signature">
+                    <p>Signature: </p>
+                    <p>Candidate Name: Mrs. Riti Shah</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <img src="public/images/offer_latter_footer.jpg" alt="">
+        </div>
+    </section>
+</body>
+
+</html>

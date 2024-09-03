@@ -10,6 +10,9 @@
         body {
             font-family: Arial, sans-serif;
             line-height: 1.3;
+            margin: 0mm 0mm !important;
+            width: 210mm;
+            height: 297mm;
         }
 
         #offer-later {
@@ -25,7 +28,7 @@
         }
 
         .container-fluid {
-            width: 100%;
+            margin: 0mm 12mm !important;
         }
 
         .content h2 {
@@ -123,23 +126,12 @@
         /* Print Styles */
         @media print {
             @page {
-                size: A4;
+                size: pdf;
                 margin: 0mm 0mm !important;
             }
-
             body {
                 margin: 0;
                 width: 100%;
-            }
-
-            .container-fluid {
-                width: 90%;
-                margin: 0mm 12mm !important;
-                /* page-break-after:always !important; */
-
-            }
-            .footer {
-                bottom: 0;
             }
         }
     </style>
@@ -204,7 +196,6 @@
                     Developer. Once again, congratulations on this significant achievement. We look forward to an
                     enduring
                     relationship with you.</p>
-
                 <p><strong>Yours Truly,<br>Ms. Payal Patel</strong></p>
                 <img src="public/images/sign.png" alt="" class="sign">
                 <p class="mb-1">MD & Chairman</p>
@@ -215,7 +206,7 @@
                     offer:
                 </p>
                 <div class="signature">
-                    <p>Signature: _______________________</p>
+                    <p>Signature: </p>
                     <p>Candidate Name: Mr. Rahul Kailas Patil</p>
                 </div>
             </div>
